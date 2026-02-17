@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getEvents, createEvent } from '../controllers/eventController';
+import { createEvent } from '../controllers/eventController';
 import upload from '../middleware/upload';
 
 const router = Router();
